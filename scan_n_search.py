@@ -143,7 +143,7 @@ def print_results(target, scan_info, port_list):
 # print("\nThanks for using Scan'n'Search. Goodbye!")
 # input()
 
-host = 'scanme.nmap.org'
+host = input("what host would you like to scan ? :")
 # set up the scanner
 nm = nmap.PortScanner()
 # do a lil scanning
